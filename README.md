@@ -8,4 +8,30 @@
 ```css
 .test{background-color:red;padding:100px;max-width:1000px}
 /* after being small then 1000px .test will have width of  */
+
 ```
+
+# 3)hero section
+![Hero section](./screenshot/Hero%20section.png)
+```css
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: #fdf2e9;
+  /* border: 3px solid #fff; */
+  /* Trick to add border inside */
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+.delivered-imgs img {
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 50%;
+  margin-right: -1.6rem;
+  /* make every img stack of each others */
+  border: 3px solid #fdf2e9;
+}
+
+```
+
+
+
